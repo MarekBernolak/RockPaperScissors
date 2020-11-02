@@ -1,0 +1,7 @@
+﻿1>------ Build started: Project: RockPaperScissors, Configuration: Release Any CPU ------
+1>RockPaperScissors -> C:\Users\mbernolak\Downloads\dotnet\RockPaperScissors\bin\Release\netcoreapp3.1\RockPaperScissors.dll
+2>------ Publish started: Project: RockPaperScissors, Configuration: Release Any CPU ------
+2>RockPaperScissors -> C:\Users\mbernolak\Downloads\dotnet\RockPaperScissors\bin\Release\netcoreapp3.1\RockPaperScissors.dll
+2>RockPaperScissors -> C:\Users\mbernolak\Downloads\dotnet\RockPaperScissors\bin\Release\netcoreapp3.1\publish\
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
