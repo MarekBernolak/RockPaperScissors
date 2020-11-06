@@ -11,6 +11,7 @@ https://pastebin.com/LTAex9zw
 
 I've added some functionalities:
 - input validity check for the "rock, paper, scissors" question,
+- instead of choosing "p", "k" or "n", input "q" to quit the game,
 - input validity check for the "play again" question,
 - console clearing after every round for clarity,
 - player choice information,
