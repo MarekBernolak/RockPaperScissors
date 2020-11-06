@@ -43,6 +43,13 @@ namespace RockPaperScissors
                             Console.WriteLine("Wybrałeś NOŻYCE");
                             ask = false;
                         }
+                        else if (inputPlayer == "Q")
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Do widzenia!\nNaciśnij \"Enter\"");
+                            Console.ReadLine();
+                            return;
+                        }
                         else
                         {
                             Console.WriteLine("Nieprawidłowy wybór!\n");
@@ -50,7 +57,6 @@ namespace RockPaperScissors
                     } while (ask);
 
                     Random rnd = new Random();
-
                     randomInt = rnd.Next(1, 4);
 
                     switch (randomInt)
