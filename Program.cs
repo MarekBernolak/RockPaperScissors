@@ -120,18 +120,8 @@ namespace RockPaperScissors
                     Console.WriteLine("Punkty:\tGRACZ:\t{0}\tKOMPUTER:\t{1}\n", scorePlayer, scoreCPU);
                 }
 
-                if (scorePlayer == 3)
-                {
-                    Console.WriteLine("WYGRAŁEŚ!");
-                }
-                else if (scoreCPU == 3)
-                {
-                    Console.WriteLine("Komputer WYGRAŁ!");
-                }
-                else
-                {
-
-                }
+                string winnerMessage = (scorePlayer == 3) ? "WYGRAŁEŚ!" : "Komputer WYGRAŁ!";
+                Console.WriteLine(winnerMessage);
 
                 bool exit = false;
                 while (!exit)
